@@ -19,7 +19,7 @@ resource "aws_instance" "nginx-server" {
   tags = {
     Name        = var.server_name
     Environment = var.environment
-    Owner       = "carol123dbt@gmail.com"
+    Owner       = "tu nombre o email"
     Team        = "DevOps"
     Project     = "terraform-nginx"
   }
