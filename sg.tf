@@ -30,7 +30,7 @@ resource "aws_security_group" "nginx-server-sg" {
   tags = {
     Name        = "${var.server_name}-sg"
     Environment = "${var.environment}"
-    Owner       = "carol123dbt@gmail.com"
+    Owner       = "tu nombre o email"
     Team        = "DevOps"
     Project     = "terraform-nginx"
   }
